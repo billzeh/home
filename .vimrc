@@ -1,0 +1,9 @@
+syntax enable
+colorscheme monokai
+set ruler
+set number
+set sts=4
+set sw=4
+set et
+set tw=120
+set shiftround
