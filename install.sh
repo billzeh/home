@@ -2,7 +2,7 @@
 
 if [ $# -ne 1 ]; then
   echo "usage: install.sh [SOURCE_DIR]"
-  echo "  e.g. install.sh ./home/"
+  echo "  e.g. install.sh ./"
   exit
 fi
 
