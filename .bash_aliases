@@ -1,2 +1,2 @@
-alias ll='ls -FlAhG'
+alias ll='ls -hAlF'
 alias glog='git log --oneline --decorate --graph'
