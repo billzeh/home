@@ -6,4 +6,4 @@ if [ $# -ne 1 ]; then
   exit
 fi
 
-rsync -rv $1/.bash* $1/.tmux.conf $1/.vim* ~
+rsync -rv $1/.zsh* $1/.bash* $1/.tmux.conf $1/.vim* ~
