@@ -1,8 +1,15 @@
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
+if [ "$(uname 2> /dev/null)" = "Linux" ]; then
+    HOME_DIR="/home/bill"
+    export EDITOR='vim'
+else
+    HOME_DIR="/Users/bill"
+fi
+
 # Path to your oh-my-zsh installation.
-export ZSH="/Users/bill/.oh-my-zsh"
+export ZSH="$HOME_DIR/.oh-my-zsh"
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
@@ -70,6 +77,7 @@ ZSH_COLORIZE_STYLE="monokai"
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(git
+         git-flow
          virtualenv
          tmux
          sublime
