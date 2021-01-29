@@ -1,0 +1,36 @@
+[:4c68fbb3-6bce-411c-90cf-4c9e62904859]
+foreground-color='#f8f8f8f8f2f2'
+visible-name='Monokai Dark'
+palette=['#757571715e5e', '#f9f926267272', '#a6a6e2e22e2e', '#f4f4bfbf7575', '#6666d9d9efef', '#aeae8181ffff', '#2A2AA1A19898', '#f9f9f8f8f5f5', '#272728282222', '#f9f926267272', '#a6a6e2e22e2e', '#f4f4bfbf7575', '#6666d9d9efef', '#aeae8181ffff', '#2A2AA1A19898', '#f8f8f8f8f2f2']
+highlight-colors-set=true
+use-theme-colors=false
+use-theme-transparency=false
+allow-bold=true
+use-theme-background=false
+bold-color-same-as-fg=true
+bold-color='#f8f8f8f8f2f2'
+background-color='#272728282222'
+highlight-background-color='#'
+highlight-foreground-color='#'
+
+[:5fd29eee-1107-41ea-84d5-2307131503ca]
+foreground-color='#c4c4c5c5b5b5'
+visible-name='Monokai Soda'
+palette=['#1a1a1a1a1a1a', '#f4f400005f5f', '#9898e0e02424', '#fafa84841919', '#9d9d6565ffff', '#f4f400005f5f', '#5858d1d1ebeb', '#c4c4c5c5b5b5', '#62625e5e4c4c', '#f4f400005f5f', '#9898e0e02424', '#e0e0d5d56161', '#9d9d6565ffff', '#f4f400005f5f', '#5858d1d1ebeb', '#f6f6f6f6efef']
+highlight-colors-set=true
+use-theme-colors=false
+use-theme-transparency=false
+allow-bold=true
+use-theme-background=false
+bold-color-same-as-fg=true
+bold-color='#c4c4c5c5b5b5'
+background-color='#1a1a1a1a1a1a'
+highlight-background-color='#'
+highlight-foreground-color='#'
+
+[:b1dcc9dd-5262-4d8d-a863-c897e6d979b9]
+visible-name='Orig'
+
+[/]
+list=['4c68fbb3-6bce-411c-90cf-4c9e62904859', '5fd29eee-1107-41ea-84d5-2307131503ca']
+default='5fd29eee-1107-41ea-84d5-2307131503ca'

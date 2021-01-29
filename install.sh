@@ -7,3 +7,7 @@ if [ $# -ne 1 ]; then
 fi
 
 rsync -rv $1/.zsh* $1/.bash* $1/.tmux.conf $1/.vim* ~
+
+if [ "$(uname 2> /dev/null)" = "Linux" ]; then
+  dconf load /org/gnome/terminal/legacy/profiles:/ < $1/gnome-terminal-profiles.dconf
+fi
