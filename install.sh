@@ -9,7 +9,7 @@ fi
 if [ "$(uname 2> /dev/null)" = "Linux" ]; then
   dconf load /org/gnome/terminal/legacy/profiles:/ < $1/gnome-terminal-profiles.dconf
   sudo apt install xclip zsh fonts-powerline
-  if [ ! -d ~/.oh-my-zsh/ ]l then
+  if [ ! -d ~/.oh-my-zsh/ ]; then
     sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
   fi
 fi
