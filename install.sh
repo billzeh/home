@@ -14,6 +14,13 @@ if [ "$(uname 2> /dev/null)" = "Linux" ]; then
   fi
 fi
 
-rsync -rv $1/.zsh* $1/.bash* $1/.tmux.conf $1/.vim* ~
+if [ ! -d ~/.oh-my-tmux/ ]; then
+  git clone https://github.com/gpakosz/.tmux.git ~/.oh-my-tmux
+  cd ~
+  ln -s -f ~/.oh-my-tmux/.tmux.conf ~/.tmux.conf
+  cd -
+fi
+
+rsync -rv $1/.zsh* $1/.bash* $1/.tmux.conf.local $1/.vim* ~
 
 echo "reboot to finish setup..."
